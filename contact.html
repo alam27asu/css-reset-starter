@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Swiss Bliss Resort|Contact</title>
+        <meta name="author" content="Anna Lam">
+        <meta name="description" content="This is the contact page of the website that includes user input for further questions about the resort.">
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+    <header>
+        <h1>Swiss Bliss Resort</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accomodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+    Required fields marked with a *</p>
+            <span id="image3"><img src="images/swiss-sunset.jpg" alt="Evergreen trees surrounding a snowy path that leads to a snow covered mountain."></span>
+            <div class="twoinput">
+                <div id="input">
+                    <form action="https://wp.zybooks.com/form-viewer.php" method="POST"></form>
+                    <label for="my-name">Full Name<span class="required">*</span></label>
+                    <input type="text" name="my-name" id="my-name" required>
+                    <label for="my-email">Email<span class="required">*</span></label>
+                    <input type="email" name="my-email" id="my-email" required>
+                    <label for="my-phone">Phone<span class="required">*</span></label>
+                    <input type="tel" name="my-phone" id="my-phone" required>
+                </div>
+                <div id="pref-input">
+                <fieldset>
+                    <legend>Preferred Method of Contact</legend>
+                    <span class="choice">
+                        <input type="radio" name="pref-contact" id="pref-emai" checked>
+                        <label for="my-email">Email</label>
+                        <input type="radio" name="pref-contact" id="pref-phone" checked>
+                        <label for="my-phone">Phone</label>
+                    </span>
+                </fieldset>
+                <label for="my-comment">Comments<span class="required">*</span></label>
+                <textarea name="my-comment" id="my-comment" required></textarea>
+                <input type="submit" name="my-submit" id="my-submit" value="Submit">
+                </div>
+            </div>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2023 - Swiss Bliss Resort <br> This site is for educational purposes only</p>
+    </footer>
+</body>
